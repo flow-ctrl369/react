@@ -25,10 +25,14 @@ body {
 
 
 .mainTitle {
-    font-size: 50px;
-    margin: 10px;
-    color: rgba(58, 249, 249, 0.831);
-    text-decoration: none;
+
+        font-size: 50px;
+        margin: 10px;
+        color: rgba(58, 249, 249, 0.8);
+        text-decoration: none;
+        /* border-radius: 50%; */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
 
 
 }
@@ -39,22 +43,28 @@ body {
     font-size: 12px;
     text-decoration: none;
     color: rgba(149, 158, 158, 0.888);
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in;
+    transition: 600ms ease-out;
     text-decoration: none;
+    
+    /* width: 5%; */
 }
 
 .descrLink:hover {
     text-decoration: none;
     color: rgba(58, 249, 249, 0.831);
 
-    transition: 200ms ease-in-out;
+    transition: 300ms ease-in-out ;
     /* text-decoration: none; */
 }
 
 .mainDescr {
-    margin: 5px;
-    padding-top: 20px;
-    margin-left: 0;
+    /* width: 20%; */
+    /* margin: 5px; */
+    padding-top: 26px;
+
+    /* padding-left: 0; */
+    /* margin-left: 0; */
     transition: 300ms ease-in-out;
 }
 
@@ -73,7 +83,8 @@ body {
 .mainImage:hover {
 
     box-shadow: 0 0 40px 2px rgba(58, 249, 249, 0.84);
-    transition: 800ms ease-in-out;
+    /* transition: 800ms ease-in; */
+    transition: 2s ease-out;
     /* color: rgba(58, 249, 249, 0.831); */
 }
 
@@ -100,19 +111,21 @@ body {
     border: solid rgba(34, 121, 121, 0.831) 1px;
     /* border-top: none; */
     background-color: #1d282f;
-    width: 50vh;
+    width: 57vh;
     height: 38vh;
-        transition: 600ms ease-in-out;
+            transition: 400ms ease-in;
+                transition: 600ms ease-out;
         box-shadow: 15px -25px 30px 10px #3cd0ee36;
     /* padding: 5rem; */
 }
 
 .contentTable:hover {
     cursor: default;
-    box-shadow: 15px -15px 30px 10px #07cbf254;
-
+    box-shadow: 15px -15px 30px 10px #07cbf232;
 
 }
+
+
 
 .contentTable p {
     margin-top: 5px;
@@ -128,6 +141,61 @@ body {
     font-size: 30px;
 }
 
+/* WebKit (Chrome, Safari) */
+.contentTable::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.contentTable::-webkit-scrollbar-thumb {
+    background: #ccc;
+    /* Color of the handle */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.contentTable::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    /* Color of the handle on hover */
+}
+
+.contentTable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the track */
+}
+
+.contentTable::-webkit-scrollbar-thumb:active {
+    background: #888;
+    /* Color of the handle when dragging */
+}
+
+/* Firefox */
+.contentTable::-moz-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.contentTable::-moz-scrollbar-thumb {
+    background: #ccc;
+    /* Color of the handle */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.contentTable::-moz-scrollbar-thumb:hover {
+    background: #999;
+    /* Color of the handle on hover */
+}
+
+.contentTable::-moz-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the track */
+}
+
+.contentTable::-moz-scrollbar-thumb:active {
+    background: #888;
+    /* Color of the handle when dragging */
+}
 
 .tableHeading {
     /* font-weight: 500; */
@@ -157,13 +225,15 @@ body {
     border-top-left-radius: 4px;
     border-bottom: none;
     cursor: pointer;
-        transition: 200ms ease-in-out;
+        transition: 600ms ease-in;
+        transition: 350ms ease-out;
+
  }   
 
  button:hover {
     /* color: rgba(58, 249, 249, 0.831); */
     color: #1d282f;
-    background-color: #3ED1F1;
+    background-color: #3ed0f1c7;
 
  }
 
