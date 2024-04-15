@@ -1,0 +1,15 @@
+li {
+    text-decoration: none;
+    list-style-type: none ;
+    color: red;
+    font-size: 16px;
+}
+
+.unorderedList {
+    text-decoration: none;
+}
+
+a {
+    color: rgba(58, 249, 249, 0.8);
+        text-decoration: none;
+}
